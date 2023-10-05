@@ -7,7 +7,11 @@ function App() {
       <header>
         <Navbar bg="dark" variant="dark" expand="lg">
           <Container>
-            <Navbar.Brand>Amazon</Navbar.Brand>
+            <Nav>
+              <a href="/" className="nav-link">
+                <Navbar.Brand>Amazon</Navbar.Brand>
+              </a>
+            </Nav>
           </Container>
           <Nav>
             <a href="/cart" className="nav-link">
